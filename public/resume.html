@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gikaru - Software Developer Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #2563eb;
+        }
+        
+        .name {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 1.3rem;
+            color: #4b5563;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #1e40af;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        .summary {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #4b5563;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+        
+        .skill-category h4 {
+            color: #1e40af;
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+        
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        
+        .skill-tag {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+        }
+        
+        .project {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+        
+        .project-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #1e40af;
+            margin-bottom: 5px;
+        }
+        
+        .project-tech {
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        .project-description {
+            color: #4b5563;
+            line-height: 1.6;
+        }
+        
+        .education {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+        
+        .education-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #1e40af;
+        }
+        
+        .education-school {
+            color: #6b7280;
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+        }
+        
+        .education-description {
+            color: #4b5563;
+            font-size: 0.9rem;
+        }
+        
+        @media print {
+            body { font-size: 12px; }
+            .container { padding: 20px; }
+            .section { margin-bottom: 25px; }
+        }
+        
+        @media (max-width: 600px) {
+            .contact { flex-direction: column; gap: 10px; }
+            .name { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1 class="name">GIKARU</h1>
+            <p class="title">Full-Stack Developer | AI/ML Engineer | Cloud Architect</p>
+            <div class="contact">
+                <div class="contact-item">
+                    <span>📧</span>
+                    <span>aizohgikaru@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <span>📱</span>
+                    <span>+254 743 335 552</span>
+                </div>
+                <div class="contact-item">
+                    <span>🔗</span>
+                    <span>github.com/I-GIKARU</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <p class="summary">
+                Innovative Software Developer and Moringa School graduate with expertise in full-stack development, 
+                AI/ML engineering, and cloud architecture. Proven track record of building scalable, production-ready 
+                applications across multiple platforms including web, mobile, and cloud infrastructure. Specialized in 
+                creating AI-powered solutions, multi-platform applications, and comprehensive productivity tools that 
+                solve real-world problems.
+            </p>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Frontend & Web</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Vite</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Backend & APIs</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Go</span>
+                        <span class="skill-tag">Gin</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Mobile Development</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Dart</span>
+                        <span class="skill-tag">Kotlin</span>
+                        <span class="skill-tag">Jetpack Compose</span>
+                        <span class="skill-tag">Android SDK</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>AI & Machine Learning</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Google Gemini</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Plotly</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Cloud & DevOps</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Google Cloud</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Nginx</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Databases</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Room Database</span>
+                        <span class="skill-tag">SQLite</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Projects -->
+        <div class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="project">
+                <h3 class="project-title">Soko Kuu - E-Commerce Platform</h3>
+                <p class="project-tech">Flutter • Firebase • Google Auth • Push Notifications</p>
+                <p class="project-description">
+                    Multi-category marketplace mobile application featuring products, services, houses, and rides. 
+                    Implemented Google Sign-in authentication, shopping cart functionality, payment integration, 
+                    and real-time push notifications using Firebase ecosystem.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3 class="project-title">AI-Powered Real-Time Chat Platform</h3>
+                <p class="project-tech">Next.js • FastAPI • Kotlin • Google Gemini • WebSocket</p>
+                <p class="project-description">
+                    Multi-platform AI assistant with web interface and Android app featuring voice interactions. 
+                    Built with WebSocket real-time messaging, speech recognition, text-to-speech capabilities, 
+                    and Google Gemini AI integration for intelligent responses.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3 class="project-title">AI Task Management & Productivity Suite</h3>
+                <p class="project-tech">FastAPI • Google Gemini • Multi-Agent AI • Microservices</p>
+                <p class="project-description">
+                    Multi-agent AI platform featuring specialized agents for code review, resume building, 
+                    finance analysis, and email assistance. Implemented microservices architecture with 
+                    FastAPI and Google Gemini AI for domain-specific productivity solutions.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3 class="project-title">Real Estate Rental Platform</h3>
+                <p class="project-tech">Go • React • Flutter • PostgreSQL • M-Pesa API</p>
+                <p class="project-description">
+                    Full-stack property management system with Go backend, React frontend, and Flutter mobile app. 
+                    Integrated M-Pesa payment system, JWT authentication, and comprehensive property management 
+                    features specifically designed for the Kenyan market.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3 class="project-title">AI Data Analysis Platform</h3>
+                <p class="project-tech">FastAPI • Next.js • Machine Learning • Data Visualization</p>
+                <p class="project-description">
+                    Full-stack data science platform with drag-and-drop CSV upload, automated data cleaning, 
+                    machine learning analysis, advanced visualizations, and AI-powered insights generation 
+                    using Google Gemini AI.
+                </p>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education">
+                <h3 class="education-title">Software Development</h3>
+                <p class="education-school">Moringa School</p>
+                <p class="education-description">
+                    Comprehensive software development program covering full-stack web development, 
+                    mobile application development, database management, and modern software engineering practices.
+                </p>
+            </div>
+        </div>
+
+        <!-- Key Achievements -->
+        <div class="section">
+            <h2 class="section-title">Key Achievements</h2>
+            <div style="background: #f8fafc; padding: 20px; border-radius: 8px; border-left: 4px solid #2563eb;">
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 10px; color: #4b5563;">✓ Built 5+ production-ready applications across multiple platforms</li>
+                    <li style="margin-bottom: 10px; color: #4b5563;">✓ Integrated advanced AI capabilities using Google Gemini in multiple projects</li>
+                    <li style="margin-bottom: 10px; color: #4b5563;">✓ Developed multi-agent AI systems for productivity automation</li>
+                    <li style="margin-bottom: 10px; color: #4b5563;">✓ Implemented payment systems including M-Pesa API integration</li>
+                    <li style="margin-bottom: 10px; color: #4b5563;">✓ Created cross-platform applications (Web, Mobile, Desktop)</li>
+                    <li style="color: #4b5563;">✓ Deployed applications on cloud platforms (AWS, Google Cloud)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
