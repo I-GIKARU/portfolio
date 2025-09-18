@@ -9,7 +9,7 @@ export default function AIAssistant() {
   const [messages, setMessages] = useState<Array<{type: 'user' | 'assistant', content: string}>>([
     {
       type: 'assistant',
-      content: "Hi! I&apos;m Isaac&apos;s AI assistant. Ask me anything about Isaac&apos;s skills, projects, experience, or background as a developer!"
+      content: "Hi! I'm Isaac's AI assistant. Ask me anything about Isaac's skills, projects, experience, or background as a developer!"
     }
   ]);
   const [input, setInput] = useState('');
@@ -97,7 +97,7 @@ export default function AIAssistant() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 100, scale: 0.9 }}
               onClick={(e) => e.stopPropagation()}
-              className="bg-gray-900 rounded-t-2xl sm:rounded-2xl shadow-2xl w-full sm:max-w-md h-[85vh] sm:h-[500px] flex flex-col border border-gray-700 sm:mx-4"
+              className="bg-gray-900 rounded-t-2xl sm:rounded-2xl shadow-2xl w-full sm:max-w-lg lg:max-w-2xl h-[85vh] sm:h-[500px] lg:h-[550px] flex flex-col border border-gray-700 sm:mx-4"
             >
               {/* Header */}
               <div className="flex items-center justify-between p-4 border-b border-gray-700">
