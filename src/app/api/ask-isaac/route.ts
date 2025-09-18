@@ -71,11 +71,11 @@ Answer as Isaac's helpful AI assistant. Be conversational, professional, and spe
 
     return NextResponse.json({ answer });
 
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Gemini AI error:', error);
     return NextResponse.json({ 
       error: 'AI service temporarily unavailable',
-      details: error.message 
+      details: error instanceof Error ? error.message : 'Unknown error'
     }, { status: 500 });
   }
 }

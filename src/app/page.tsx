@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Github, Linkedin, Mail, Download, Code, Smartphone, Cloud, Brain, Database, Zap, Palette, Globe, X } from 'lucide-react';
+import { ArrowRight, Github, Mail, Download, Code, Smartphone, Cloud, Brain, Database, Zap, Palette, Globe } from 'lucide-react';
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -180,7 +180,7 @@ export default function Home() {
                   transition={{ duration: 0.6, delay: 0.6 }}
                   className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white leading-tight"
                 >
-                  Hi, I'm{' '}
+                  Hi, I&apos;m{' '}
                   <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
                     Isaac Gikaru
                   </span>
@@ -480,9 +480,9 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Let's Work Together</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Let&apos;s Work Together</h2>
             <p className="text-white/60 text-base sm:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto">
-              Ready to bring your ideas to life? Let's discuss how we can create something amazing together.
+              Ready to bring your ideas to life? Let&apos;s discuss how we can create something amazing together.
             </p>
             
             <div className="bg-gray-900/40 backdrop-blur-sm border border-gray-700/40 rounded-2xl p-6 sm:p-8 mb-6 sm:mb-8 max-w-2xl mx-auto">

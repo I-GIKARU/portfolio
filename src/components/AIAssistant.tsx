@@ -9,7 +9,7 @@ export default function AIAssistant() {
   const [messages, setMessages] = useState<Array<{type: 'user' | 'assistant', content: string}>>([
     {
       type: 'assistant',
-      content: "Hi! I'm Isaac's AI assistant. Ask me anything about Isaac's skills, projects, experience, or background as a developer!"
+      content: "Hi! I&apos;m Isaac&apos;s AI assistant. Ask me anything about Isaac&apos;s skills, projects, experience, or background as a developer!"
     }
   ]);
   const [input, setInput] = useState('');
@@ -34,7 +34,7 @@ export default function AIAssistant() {
 
       const data = await response.json();
       setMessages(prev => [...prev, { type: 'assistant', content: data.answer }]);
-    } catch (error) {
+    } catch {
       setMessages(prev => [...prev, { 
         type: 'assistant', 
         content: "Sorry, I'm having trouble connecting right now. Please try again!" 
