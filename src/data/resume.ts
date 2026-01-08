@@ -13,24 +13,40 @@ export const resumeData = {
     description: "Comprehensive software development program covering full-stack web development, mobile application development, database management, and modern software engineering practices."
   },
   
-  summary: "Innovative Software Developer and Moringa School graduate with expertise in full-stack development, AI/ML engineering, native Android development, and cloud architecture. Proven track record of building scalable, production-ready applications across multiple platforms including web, native Android with Kotlin & Jetpack Compose, Flutter mobile apps, and cloud infrastructure. Specialized in creating AI-powered solutions, multi-platform applications, and comprehensive productivity tools that solve real-world problems.",
+  summary: "AI Engineer and Agentic AI Specialist with expertise in building production-ready AI systems, multi-agent architectures, and intelligent automation solutions. Proven track record in developing enterprise-grade AI applications using LangGraph, CrewAI, and modern LLM frameworks. Specialized in creating autonomous AI agents, RAG systems, and scalable AI infrastructure that solve complex real-world problems across cybersecurity, data analysis, and business automation.",
   
   skills: {
-    "Frontend & Web": ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Vite"],
-    "Backend & APIs": ["Python", "FastAPI", "Flask", "Go", "Gin", "Node.js"],
-    "Mobile Development": ["Flutter", "Dart", "Kotlin", "Jetpack Compose", "Android SDK", "Native Android"],
-    "AI & Machine Learning": ["Google Gemini", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Plotly"],
-    "Databases": ["PostgreSQL", "Firebase", "Room Database", "SQLite"],
-    "Cloud & DevOps": ["AWS", "Google Cloud", "Docker", "Nginx", "Git"],
-    "Payment Integration": ["M-Pesa API", "Stripe", "REST APIs", "WebSocket", "JWT"],
-    "Architecture": ["Microservices", "Multi-Agent AI", "MVVM", "Clean Architecture", "Event-Driven"]
+    "AI & Agentic Systems": ["LangGraph", "CrewAI", "AutoGPT", "LangChain", "Multi-Agent AI", "Autonomous Systems"],
+    "LLM & AI Providers": ["Claude", "Anthropic API", "OpenAI", "Gemini", "GPT-4", "Hugging Face", "Ollama"],
+    "RAG & Memory Systems": ["Pinecone", "Weaviate", "Chroma", "PostgreSQL", "Redis", "Vector Databases"],
+    "AI Tools & Integration": ["Slack Integration", "Google APIs", "Native LLM Tools", "API Orchestration"],
+    "ML & Data Science": ["Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Plotly", "Machine Learning"],
+    "Orchestration & Streaming": ["Apache Airflow", "RabbitMQ", "Kafka", "Event-Driven Architecture"],
+    "AI Monitoring & MLOps": ["LangSmith", "Weights & Biases", "Model Monitoring", "AI Performance Tracking"],
+    "Cloud & Deployment": ["Kubernetes", "AWS", "GCP", "Azure", "Docker", "Scalable AI Infrastructure"],
+    "Programming Languages": ["Python", "Rust", "Go", "TypeScript", "JavaScript", "Kotlin"],
+    "Supporting Technologies": ["FastAPI", "React", "Next.js", "Streamlit", "PostgreSQL", "Git"]
   },
   
   projects: [
     {
       title: "AI Data Analysis Platform",
-      technologies: ["FastAPI", "Next.js", "Machine Learning", "Data Visualization"],
-      description: "Full-stack data science platform with drag-and-drop CSV upload, automated data cleaning, machine learning analysis, advanced visualizations, and AI-powered insights generation using Google Gemini AI."
+      technologies: ["FastAPI", "Next.js", "Machine Learning", "RAG Systems", "LLM Integration"],
+      description: "Advanced AI-powered data science platform with automated ML analysis, intelligent insights generation using LLMs, and comprehensive RAG-based recommendations for data-driven decision making."
+    },
+    {
+      title: "AI-Powered Cybersecurity Agent",
+      technologies: ["LangGraph", "Multi-Agent AI", "Autonomous Systems", "PostgreSQL", "Google Gemini AI"],
+      description: "Enterprise-grade autonomous AI security platform with multi-agent architecture, real-time threat detection using LangGraph, and intelligent incident response. Features 95% accuracy, 2.5s response time, and autonomous daily reporting.",
+      github: "https://github.com/I-GIKARU/ai-cybersecurity-agent",
+      features: [
+        "AI-Powered Threat Detection & Classification (95% accuracy)",
+        "Automated Incident Response (2.5s response time)",
+        "Real-time Security Monitoring & Analytics",
+        "Autonomous Email Reporting System (Daily at 6 AM EAT)",
+        "Advanced Threat Hunting & Zero-Day Detection",
+        "Professional SOC-style Dashboard Interface"
+      ]
     },
     {
       title: "Soko Kuu - E-Commerce Platform",
@@ -46,13 +62,13 @@ export const resumeData = {
     },
     {
       title: "AI Task Management & Productivity Suite",
-      technologies: ["FastAPI", "Google Gemini", "Multi-Agent AI", "Microservices"],
-      description: "Multi-agent AI platform featuring specialized agents for code review, resume building, finance analysis, and email assistance. Implemented microservices architecture with FastAPI and Google Gemini AI for domain-specific productivity solutions.",
+      technologies: ["CrewAI", "Multi-Agent AI", "LLM Integration", "Google Gemini", "Microservices"],
+      description: "Multi-agent AI platform built with CrewAI featuring specialized autonomous agents for code review, resume building, finance analysis, and intelligent email assistance. Implements advanced agent orchestration and task delegation.",
       agents: [
-        "Smart Code Review (bug detection, documentation, testing)",
-        "Smart Resume Builder (ATS optimization, tailored resumes)",
-        "Personal Finance Analyzer (budget generation, investment advice)",
-        "Email Response Assistant (professional responses, translation)"
+        "Smart Code Review Agent (bug detection, documentation, testing)",
+        "Smart Resume Builder Agent (ATS optimization, tailored resumes)",
+        "Personal Finance Analyzer Agent (budget generation, investment advice)",
+        "Email Response Assistant Agent (professional responses, translation)"
       ]
     },
     {
@@ -64,27 +80,30 @@ export const resumeData = {
   ],
   
   achievements: [
-    "Built 5+ production-ready applications across multiple platforms",
-    "Developed native Android applications using Kotlin and Jetpack Compose",
-    "Integrated advanced AI capabilities using Google Gemini in multiple projects",
-    "Developed multi-agent AI systems for productivity automation",
-    "Implemented payment systems including M-Pesa API integration",
-    "Created cross-platform applications (Web, Native Android, Flutter, Desktop)",
-    "Deployed applications on cloud platforms (AWS, Google Cloud)"
+    "Built 6+ production-ready AI applications with autonomous capabilities",
+    "Developed enterprise-grade AI cybersecurity platform with 95% threat detection accuracy",
+    "Created multi-agent AI systems using LangGraph and CrewAI for business automation",
+    "Implemented RAG systems with vector databases (Pinecone, Weaviate, Chroma)",
+    "Deployed scalable AI infrastructure on Kubernetes with MLOps monitoring",
+    "Integrated multiple LLM providers (Claude, OpenAI, Gemini) in production systems",
+    "Built autonomous security monitoring system with 2.5s incident response time",
+    "Developed AI-powered data analysis platform with machine learning capabilities",
+    "Created intelligent task management suite with specialized AI agents"
   ],
   
   specializations: [
-    "AI-powered application development",
-    "Multi-platform mobile development (Flutter + Native Android)",
-    "Payment system integration (M-Pesa, Stripe)",
-    "Cloud architecture and deployment",
-    "Full-stack web development",
-    "Data science and machine learning"
+    "Agentic AI system development and multi-agent orchestration",
+    "RAG (Retrieval-Augmented Generation) systems with vector databases",
+    "Enterprise AI infrastructure and MLOps deployment",
+    "LLM integration and optimization across multiple providers",
+    "Autonomous AI monitoring and intelligent automation",
+    "AI-powered cybersecurity and threat detection systems",
+    "Machine learning model development and deployment"
   ],
   
   availability: {
     status: "Available for opportunities",
-    interests: ["AI/ML roles", "Mobile development", "Cloud architecture", "Full-stack development"],
+    interests: ["AI/ML Engineering", "Agentic AI Systems", "MLOps & AI Infrastructure", "AI Research & Development"],
     preferredContact: "email"
   }
 };

@@ -133,9 +133,9 @@ export default function Home() {
                 <div className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-96 lg:h-96 mx-auto lg:mx-0">
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-2xl opacity-30 animate-pulse"></div>
                   <img 
-                    src="/IMG_20250915_162943.jpg" 
+                    src="/photo_2026-01-03_18-42-34.jpg" 
                     alt="Isaac Gikaru's Avatar" 
-                    className="relative w-full h-full rounded-full object-cover border-4 border-white/20 shadow-2xl"
+                    className="relative  rounded-full object-cover border-4 border-white/20 shadow-2xl"
                   />
                   {/* Floating Tech Icons */}
                   <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 lg:-top-6 lg:-right-6 w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full flex items-center justify-center shadow-lg animate-bounce">
@@ -193,10 +193,10 @@ export default function Home() {
                   className="mb-4 sm:mb-6"
                 >
                   <div className="text-xl sm:text-2xl text-white/90 mb-2">
-                    Full-Stack Developer
+                    AI Engineer & Agentic AI Specialist
                   </div>
                   <div className="text-lg sm:text-xl text-blue-300">
-                    AI/ML Engineer • Cloud Architect
+                    LangGraph • CrewAI • RAG Systems • MLOps
                   </div>
                 </motion.div>
                 
@@ -206,9 +206,9 @@ export default function Home() {
                   transition={{ duration: 0.6, delay: 1.0 }}
                   className="text-base sm:text-lg text-white/70 mb-6 sm:mb-8 leading-relaxed"
                 >
-                  I build scalable, production-ready applications across multiple platforms. 
-                  From AI-powered systems to full-stack web applications, native Android apps with Kotlin & Jetpack Compose, 
-                  Flutter mobile apps, and cloud infrastructure - I deliver comprehensive solutions that solve real-world problems.
+                  I build production-ready AI systems and autonomous agents that solve complex real-world problems. 
+                  Specializing in multi-agent architectures, RAG systems, and enterprise AI infrastructure with 
+                  LangGraph, CrewAI, and modern LLM frameworks - delivering intelligent automation solutions.
                 </motion.p>
 
                 {/* Stats */}
@@ -280,8 +280,8 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-12 sm:mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Technical Expertise</h2>
-            <p className="text-white/60 text-base sm:text-lg">Technologies I work with to build amazing products</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">AI & Technical Expertise</h2>
+            <p className="text-white/60 text-base sm:text-lg">Advanced AI technologies and frameworks I use to build intelligent systems</p>
           </motion.div>
           
           <motion.div 
@@ -293,52 +293,46 @@ export default function Home() {
           >
             {[
               {
-                icon: <Globe className="w-8 h-8" />,
-                title: "Frontend & Web",
-                skills: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Vite"],
-                color: "from-blue-600 to-cyan-600"
+                icon: <Brain className="w-8 h-8" />,
+                title: "AI & Agentic Systems",
+                skills: ["LangGraph", "CrewAI", "AutoGPT", "LangChain", "Multi-Agent AI", "Autonomous Systems"],
+                color: "from-purple-600 to-pink-600"
               },
               {
                 icon: <Zap className="w-8 h-8" />,
-                title: "Backend & APIs",
-                skills: ["Python", "FastAPI", "Flask", "Go", "Gin", "Node.js"],
-                color: "from-slate-600 to-gray-600"
-              },
-              {
-                icon: <Smartphone className="w-8 h-8" />,
-                title: "Mobile Development",
-                skills: ["Flutter", "Dart", "Kotlin", "Jetpack Compose", "Android SDK", "Native Android"],
-                color: "from-purple-500 to-violet-500"
-              },
-              {
-                icon: <Brain className="w-8 h-8" />,
-                title: "AI & Machine Learning",
-                skills: ["Google Gemini", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Plotly"],
-                color: "from-gray-700 to-slate-700"
+                title: "LLM & AI Providers",
+                skills: ["Claude", "Anthropic API", "OpenAI", "Gemini", "GPT-4", "Hugging Face"],
+                color: "from-blue-600 to-cyan-600"
               },
               {
                 icon: <Database className="w-8 h-8" />,
-                title: "Databases & Storage",
-                skills: ["PostgreSQL", "Firebase", "Room Database", "SQLite"],
-                color: "from-cyan-600 to-blue-700"
+                title: "RAG & Memory Systems",
+                skills: ["Pinecone", "Weaviate", "Chroma", "PostgreSQL", "Redis", "Vector Databases"],
+                color: "from-green-600 to-emerald-600"
               },
               {
                 icon: <Cloud className="w-8 h-8" />,
-                title: "Cloud & DevOps",
-                skills: ["AWS", "Google Cloud", "Docker", "Nginx", "Git"],
-                color: "from-blue-700 to-indigo-700"
-              },
-              {
-                icon: <Code className="w-8 h-8" />,
-                title: "Payment & Integration",
-                skills: ["M-Pesa API", "Stripe", "REST APIs", "WebSocket", "JWT"],
-                color: "from-slate-700 to-gray-800"
+                title: "MLOps & Deployment",
+                skills: ["Kubernetes", "AWS", "GCP", "Azure", "LangSmith", "Weights & Biases"],
+                color: "from-orange-600 to-red-600"
               },
               {
                 icon: <Palette className="w-8 h-8" />,
-                title: "Architecture & Design",
-                skills: ["Microservices", "Multi-Agent AI", "MVVM", "Clean Architecture", "Event-Driven"],
-                color: "from-gray-600 to-slate-600"
+                title: "Orchestration & Streaming",
+                skills: ["Apache Airflow", "RabbitMQ", "Kafka", "Event-Driven Architecture"],
+                color: "from-slate-600 to-gray-600"
+              },
+              {
+                icon: <Code className="w-8 h-8" />,
+                title: "Programming Languages",
+                skills: ["Python", "Rust", "Go", "TypeScript", "JavaScript", "Kotlin"],
+                color: "from-gray-700 to-slate-700"
+              },
+              {
+                icon: <Globe className="w-8 h-8" />,
+                title: "Supporting Technologies",
+                skills: ["FastAPI", "React", "Next.js", "Streamlit", "Docker", "Git"],
+                color: "from-cyan-600 to-blue-600"
               }
             ].map((category, index) => (
               <motion.div
@@ -392,10 +386,17 @@ export default function Home() {
             {[
               {
                 title: "AI Data Analysis Platform",
-                description: "Full-stack data analysis platform with FastAPI backend and Next.js frontend, featuring ML analysis, visualizations, and AI insights.",
+                description: "Advanced AI-powered data science platform with automated ML analysis, intelligent insights generation using LLMs, and comprehensive RAG-based recommendations.",
                 image: "/Data Analysis/Screenshot From 2025-09-18 13-10-16.png",
-                tags: ["FastAPI", "Next.js", "ML Analysis"],
+                tags: ["FastAPI", "AI/ML", "RAG Systems"],
                 link: "/projects/data-analysis"
+              },
+              {
+                title: "AI-Powered Cybersecurity Agent",
+                description: "Enterprise-grade autonomous AI security platform with multi-agent architecture, real-time threat detection using LangGraph, and intelligent incident response (95% accuracy, 2.5s response time).",
+                image: "/AI-Cybersecurity/Screenshot From 2026-01-03 18-49-51.png",
+                tags: ["LangGraph", "Multi-Agent AI", "Autonomous Systems"],
+                link: "/projects/cybersecurity-agent"
               },
               {
                 title: "Soko Kuu - E-Commerce Platform",
@@ -413,9 +414,9 @@ export default function Home() {
               },
               {
                 title: "AI Task Management & Productivity Suite",
-                description: "Multi-agent AI platform with code review, resume builder, finance analyzer, and email assistant capabilities.",
+                description: "Multi-agent AI platform built with CrewAI featuring specialized autonomous agents for code review, resume building, finance analysis, and intelligent email assistance.",
                 image: "/Task management/Smart Code Review.png",
-                tags: ["FastAPI", "Google Gemini", "AI Agents"],
+                tags: ["CrewAI", "Multi-Agent AI", "LLM Integration"],
                 link: "/projects/task-management"
               },
               {
