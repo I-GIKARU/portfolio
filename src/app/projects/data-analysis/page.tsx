@@ -5,7 +5,7 @@ import { ArrowLeft, Github, BarChart3, Brain, Database, X } from 'lucide-react';
 import { useState } from 'react';
 
 export default function DataAnalysisProject() {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const containerVariants = {
     hidden: { opacity: 0 },

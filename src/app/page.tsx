@@ -420,11 +420,11 @@ export default function Home() {
                 link: "/projects/task-management"
               },
               {
-                title: "Real Estate Rental Platform",
-                description: "Full-stack property management system with Go backend, React frontend, Flutter mobile app, and M-Pesa integration.",
-                image: "/realEstate/photo_2025-09-18_12-40-39.jpg",
-                tags: ["Go", "React", "Flutter"],
-                link: "/projects/real-estate"
+                title: "AI-Powered WhatsApp Auto-Reply System",
+                description: "Production-ready AI assistant that automatically responds to WhatsApp messages using true background processing with RemoteInput integration.",
+                image: "/whatsreply/photo_2026-01-13_18-50-45.jpg",
+                tags: ["Android", "Kotlin", "LangGraph", "AI"],
+                link: "/projects/whatsapp-auto-reply"
               }
             ].map((project, index) => (
               <motion.div

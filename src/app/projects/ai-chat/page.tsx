@@ -5,7 +5,7 @@ import { ArrowLeft, Github, MessageSquare, Smartphone, Zap, X } from 'lucide-rea
 import { useState } from 'react';
 
 export default function AIChatProject() {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -196,12 +196,12 @@ export default function AIChatProject() {
                     src={image} 
                     alt="AI Chat Application Screenshot" 
                     className="w-full rounded-lg shadow-lg group-hover:scale-105 transition-transform duration-300" 
+                  />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 rounded-2xl flex items-center justify-center">
                     <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm font-medium">
                       Click to enlarge
                     </span>
                   </div>
-                  />
                 </motion.div>
               ))}
             </div>

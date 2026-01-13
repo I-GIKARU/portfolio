@@ -5,7 +5,7 @@ import { ArrowLeft, Github, Shield, Zap, Brain, AlertTriangle, Database, Monitor
 import { useState } from 'react';
 
 export default function CybersecurityProject() {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const containerVariants = {
     hidden: { opacity: 0 },

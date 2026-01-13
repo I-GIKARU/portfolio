@@ -72,11 +72,21 @@ export const resumeData = {
       ]
     },
     {
-      title: "Real Estate Rental Platform",
-      technologies: ["Go", "React", "Flutter", "PostgreSQL", "M-Pesa API"],
-      description: "Full-stack property management system with Go backend, React frontend, and Flutter mobile app. Integrated M-Pesa payment system, JWT authentication, and comprehensive property management features specifically designed for the Kenyan market.",
-      github: "https://github.com/I-GIKARU/real-estate"
-    }
+      title: "AI-Powered WhatsApp Auto-Reply System",
+      technologies: ["Android", "Kotlin", "LangGraph", "FastAPI", "Jetpack Compose", "Google Gemini AI", "RAG Systems"],
+      description: "Production-ready AI assistant that automatically responds to WhatsApp messages using true background processing. Features RemoteInput integration for seamless replies without UI interaction, intelligent conversation queuing, and real estate business context with multi-county support.",
+      github: "https://github.com/I-GIKARU/whatsapp-ai-assistant",
+      features: [
+        "True Background WhatsApp Replies (RemoteInput integration)",
+        "AI-Powered Response Generation (3-second response time)",
+        "Real Estate Business Context (Multi-county pricing: Nairobi, Kiambu, Machakos)",
+        "Conversation Queuing & Deduplication System",
+        "Modern WhatsApp-themed UI with Jetpack Compose",
+        "Intelligent Confidence Filtering (50-95% threshold)",
+        "Accessibility Service Integration for Message Detection",
+        "Professional Status Dashboard with Real-time Metrics"
+      ]
+    },
   ],
   
   achievements: [

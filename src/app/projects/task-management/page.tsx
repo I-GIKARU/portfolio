@@ -4,7 +4,9 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Github, Brain, Code, Mail, DollarSign , X } from 'lucide-react';
 import { useState } from 'react';
 export default function TaskManagementProject() {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -146,7 +148,7 @@ export default function TaskManagementProject() {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
                   className="group bg-gray-900/40 backdrop-blur-sm border border-gray-700/40 rounded-2xl p-4 hover:bg-gray-800/50 transition-all duration-300 cursor-pointer relative"
-                  onClick={() => setSelectedImage(image)}
+                  onClick={() => setSelectedImage(agent.image)}
                 >
                   <img 
                     src={agent.image} 
@@ -293,9 +295,6 @@ export default function TaskManagementProject() {
       )}
         </div>
       </div>
-    </div>
-  );
-}
 
       {/* Image Modal */}
       {selectedImage && (
@@ -318,9 +317,12 @@ export default function TaskManagementProject() {
             </button>
             <img
               src={selectedImage}
-              alt="Task Management Platform Screenshot - Full Size"
+              alt="Task Management System Screenshot - Full Size"
               className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
             />
           </motion.div>
         </div>
       )}
+    </div>
+  );
+}
