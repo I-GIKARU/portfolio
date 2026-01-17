@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { ArrowLeft, Github, ExternalLink, Smartphone, Database, Zap , X } from 'lucide-react';
 import { useState } from 'react';
-export default function SokoKuuProject() {
+export default function ShopEasyProject() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const containerVariants = {
@@ -85,20 +85,20 @@ export default function SokoKuuProject() {
           >
             <div className="mb-6">
               <span className="px-4 py-2 bg-gradient-to-r from-blue-600/20 to-cyan-600/20 border border-blue-500/30 rounded-full text-blue-300 text-sm">
-                📱 Mobile Application
+                🏢 B2B Marketplace Platform
               </span>
             </div>
             <h1 className="text-5xl font-bold mb-6 text-white">
-              Soko Kuu - <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">E-Commerce Platform</span>
+              ShopEasy - <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">B2B Marketplace</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Multi-Category Marketplace with Advanced Features
+              Connecting Retailers and Suppliers Across Kenya's Supply Chain
             </p>
             <div className="flex justify-center flex-wrap gap-4 mb-8">
-              <span className="px-4 py-2 bg-blue-600/20 border border-blue-500/30 text-blue-300 rounded-full">Flutter</span>
-              <span className="px-4 py-2 bg-gray-600/20 border border-gray-500/30 text-gray-300 rounded-full">Firebase</span>
-              <span className="px-4 py-2 bg-cyan-600/20 border border-cyan-500/30 text-cyan-300 rounded-full">Google Auth</span>
-              <span className="px-4 py-2 bg-slate-600/20 border border-slate-500/30 text-slate-300 rounded-full">Push Notifications</span>
+              <span className="px-4 py-2 bg-blue-600/20 border border-blue-500/30 text-blue-300 rounded-full">React.js</span>
+              <span className="px-4 py-2 bg-gray-600/20 border border-gray-500/30 text-gray-300 rounded-full">Kotlin</span>
+              <span className="px-4 py-2 bg-cyan-600/20 border border-cyan-500/30 text-cyan-300 rounded-full">Jetpack Compose</span>
+              <span className="px-4 py-2 bg-slate-600/20 border border-slate-500/30 text-slate-300 rounded-full">Next.js</span>
             </div>
           </motion.div>
 
@@ -118,12 +118,12 @@ export default function SokoKuuProject() {
                 <h2 className="text-2xl font-bold text-white">Project Overview</h2>
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                Soko Kuu is a comprehensive multi-category marketplace that revolutionizes online shopping in Kenya. 
-                The platform seamlessly integrates products, services, houses, and rides into a single, user-friendly mobile application.
+                ShopEasy is a comprehensive B2B marketplace platform that connects retailers and suppliers across Kenya's supply chain ecosystem. 
+                The platform bridges the gap from factory floor to corner shop through an intelligent, unified system.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                Built with Flutter and powered by Firebase, the app features Google authentication, real-time notifications, 
-                and advanced search capabilities, providing users with a complete e-commerce experience.
+                Built with React.js web portal, Android mobile application, and Next.js company website, ShopEasy provides 
+                multi-role dashboards, secure authentication, and complete order management for modern businesses.
               </p>
             </motion.div>
 
@@ -137,27 +137,27 @@ export default function SokoKuuProject() {
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
-                  Multi-category marketplace (Products, Services, Houses, Rides)
+                  Web portal connecting retailers and suppliers
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
-                  Google Sign-in authentication
+                  Android mobile app for B2B marketplace
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-gray-400 rounded-full mr-3"></div>
-                  Shopping cart and order management
+                  Multi-role dashboards (suppliers, retailers, admins)
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-slate-400 rounded-full mr-3"></div>
-                  Payment integration system
+                  Secure authentication and payment systems
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
-                  Push notifications via Firebase
+                  Real-time analytics and order management
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
-                  Deep linking for seamless navigation
+                  Company portfolio website
                 </li>
               </ul>
             </motion.div>
@@ -177,15 +177,13 @@ export default function SokoKuuProject() {
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                "/e-commerce/photo_2025-09-18_11-00-28.jpg",
-                "/e-commerce/photo_2025-09-18_11-01-24.jpg",
-                "/e-commerce/photo_2025-09-18_11-01-42.jpg",
-                "/e-commerce/photo_2025-09-18_11-01-53.jpg",
-                "/e-commerce/photo_2025-09-18_11-07-35.jpg",
-                "/e-commerce/photo_2025-09-18_11-07-40.jpg",
-                "/e-commerce/photo_2025-09-18_11-30-07.jpg",
-                "/e-commerce/photo_2025-09-18_11-30-10.jpg",
-                "/e-commerce/photo_2025-09-18_11-38-34.jpg"
+                "/shopeasy/photo_2026-01-17_10-56-31.jpg",
+                "/shopeasy/photo_2026-01-17_10-56-42.jpg",
+                "/shopeasy/photo_2026-01-17_10-56-46.jpg",
+                "/shopeasy/photo_2026-01-17_10-56-49.jpg",
+                "/shopeasy/photo_2026-01-17_10-56-52.jpg",
+                "/shopeasy/photo_2026-01-17_10-56-55.jpg",
+                "/shopeasy/photo_2026-01-17_10-56-57.jpg"
               ].map((image, index) => (
                 <motion.div
                   key={index}
@@ -198,7 +196,7 @@ export default function SokoKuuProject() {
                 >
                   <img 
                     src={image} 
-                    alt="Soko Kuu App Screenshot" 
+                    alt="ShopEasy App Screenshot" 
                     className="w-full rounded-lg shadow-lg group-hover:scale-105 transition-transform duration-300" 
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 rounded-2xl flex items-center justify-center">

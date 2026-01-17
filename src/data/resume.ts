@@ -4,6 +4,8 @@ export const resumeData = {
     email: "aizohgikaru@gmail.com",
     phone: "+254 743 335 552",
     github: "github.com/I-GIKARU",
+    linkedin: "linkedin.com/in/isaac-gikaru",
+    portfolio: "portfolio-six-pi-34.vercel.app",
     location: "Kenya"
   },
   
@@ -13,107 +15,109 @@ export const resumeData = {
     description: "Comprehensive software development program covering full-stack web development, mobile application development, database management, and modern software engineering practices."
   },
   
-  summary: "AI Engineer and Agentic AI Specialist with expertise in building production-ready AI systems, multi-agent architectures, and intelligent automation solutions. Proven track record in developing enterprise-grade AI applications using LangGraph, CrewAI, and modern LLM frameworks. Specialized in creating autonomous AI agents, RAG systems, and scalable AI infrastructure that solve complex real-world problems across cybersecurity, data analysis, and business automation.",
+  summary: "Full Stack Developer and Mobile App Developer with growing expertise in building AI-powered applications and intelligent automation systems. Proven experience developing web platforms, Android applications, and B2B marketplace solutions while expanding into AI-driven business solutions that enhance customer engagement and operational efficiency.",
+  
+  experience: [
+    {
+      title: "Frontend & Mobile Developer",
+      company: "ShopEasy Technologies",
+      location: "Kenya",
+      period: "2025 – Present",
+      responsibilities: [
+        "Developed web platform connecting retailers and suppliers across Kenya's supply chain ecosystem",
+        "Built mobile application for B2B marketplace enabling businesses to order products and manage inventory",
+        "Created company website showcasing platform capabilities and business solutions",
+        "Designed user-friendly dashboards for different business roles (suppliers, retailers, administrators)",
+        "Implemented secure user authentication, order processing, and payment systems across all platforms"
+      ]
+    },
+    {
+      title: "Business Automation Specialist",
+      company: "Autonomous AI Systems Development",
+      location: "Kenya", 
+      period: "2025 – Present",
+      responsibilities: [
+        "Developed intelligent WhatsApp assistant that automatically responds to customer inquiries 24/7",
+        "Built AI system that understands business context and generates appropriate responses for real estate and e-commerce",
+        "Created mobile app that monitors incoming messages and sends professional replies without human intervention",
+        "Implemented smart filtering system ensuring only high-quality responses are sent automatically",
+        "Deployed business automation solution reducing manual customer service workload by 80%"
+      ]
+    }
+  ],
   
   skills: {
-    "AI & Agentic Systems": ["LangGraph", "CrewAI", "AutoGPT", "LangChain", "Multi-Agent AI", "Autonomous Systems"],
-    "LLM & AI Providers": ["Claude", "Anthropic API", "OpenAI", "Gemini", "GPT-4", "Hugging Face", "Ollama"],
-    "RAG & Memory Systems": ["Pinecone", "Weaviate", "Chroma", "PostgreSQL", "Redis", "Vector Databases"],
-    "AI Tools & Integration": ["Slack Integration", "Google APIs", "Native LLM Tools", "API Orchestration"],
-    "ML & Data Science": ["Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Plotly", "Machine Learning"],
-    "Orchestration & Streaming": ["Apache Airflow", "RabbitMQ", "Kafka", "Event-Driven Architecture"],
-    "AI Monitoring & MLOps": ["LangSmith", "Weights & Biases", "Model Monitoring", "AI Performance Tracking"],
-    "Cloud & Deployment": ["Kubernetes", "AWS", "GCP", "Azure", "Docker", "Scalable AI Infrastructure"],
-    "Programming Languages": ["Python", "Rust", "Go", "TypeScript", "JavaScript", "Kotlin"],
-    "Supporting Technologies": ["FastAPI", "React", "Next.js", "Streamlit", "PostgreSQL", "Git"]
+    "Core Development": ["Full Stack Web Development", "Android Mobile Development", "API Development & Integration"],
+    "AI & Automation": ["LangGraph", "CrewAI", "LangChain", "Multi-Agent AI", "Business Process Automation"],
+    "LLM Providers": ["Claude", "OpenAI", "Gemini", "GPT-4", "Hugging Face"],
+    "Databases": ["PostgreSQL", "MySQL", "Redis", "Vector Databases"],
+    "Cloud & DevOps": ["AWS", "GCP", "Azure", "Docker"],
+    "Programming Languages": ["Python", "Go", "TypeScript", "JavaScript", "Kotlin"],
+    "Frameworks & Tools": ["FastAPI", "React", "Next.js", "Flutter", "Streamlit", "Jetpack Compose"]
   },
   
   projects: [
     {
-      title: "AI Data Analysis Platform",
-      technologies: ["FastAPI", "Next.js", "Machine Learning", "RAG Systems", "LLM Integration"],
-      description: "Advanced AI-powered data science platform with automated ML analysis, intelligent insights generation using LLMs, and comprehensive RAG-based recommendations for data-driven decision making."
-    },
-    {
-      title: "AI-Powered Cybersecurity Agent",
-      technologies: ["LangGraph", "Multi-Agent AI", "Autonomous Systems", "PostgreSQL", "Google Gemini AI"],
-      description: "Enterprise-grade autonomous AI security platform with multi-agent architecture, real-time threat detection using LangGraph, and intelligent incident response. Features 95% accuracy, 2.5s response time, and autonomous daily reporting.",
-      github: "https://github.com/I-GIKARU/ai-cybersecurity-agent",
+      title: "ShopEasy B2B Marketplace Platform",
+      technologies: ["React.js", "Kotlin", "Jetpack Compose", "Next.js", "Ant Design"],
+      description: "Comprehensive B2B marketplace ecosystem connecting retailers and suppliers across Kenya. Built web portal, Android application, and company portfolio website with multi-role dashboards and complete e-commerce functionality.",
       features: [
-        "AI-Powered Threat Detection & Classification (95% accuracy)",
-        "Automated Incident Response (2.5s response time)",
-        "Real-time Security Monitoring & Analytics",
-        "Autonomous Email Reporting System (Daily at 6 AM EAT)",
-        "Advanced Threat Hunting & Zero-Day Detection",
-        "Professional SOC-style Dashboard Interface"
+        "Web portal for supplier-retailer connections",
+        "Android mobile app with inventory management",
+        "Multi-role dashboards (admin, manufacturer, distributor, retailer)",
+        "Secure authentication and payment integration",
+        "Real-time analytics and order management"
       ]
     },
     {
-      title: "Soko Kuu - E-Commerce Platform",
-      technologies: ["Flutter", "Firebase", "Google Auth", "Push Notifications"],
-      description: "Multi-category marketplace mobile application featuring products, services, houses, and rides. Implemented Google Sign-in authentication, shopping cart functionality, payment integration, and real-time push notifications using Firebase ecosystem.",
-      github: "https://github.com/I-GIKARU/sokokuu"
+      title: "AI-Powered WhatsApp Auto-Reply System",
+      technologies: ["Android", "Kotlin", "LangGraph", "FastAPI", "Jetpack Compose", "Google Gemini AI"],
+      description: "Production-ready AI assistant that automatically responds to WhatsApp messages using intelligent automation. Features background processing, business context awareness, and professional reply generation.",
+      github: "https://github.com/I-GIKARU/whatsapp-ai-assistant",
+      features: [
+        "Autonomous WhatsApp message monitoring and replies",
+        "AI-powered response generation with business context",
+        "Smart confidence filtering for quality assurance",
+        "Real estate and e-commerce business templates",
+        "Professional dashboard with real-time metrics",
+        "80% reduction in manual customer service workload"
+      ]
+    },
+    {
+      title: "ShopEasy B2B Marketplace Platform",
+      technologies: ["React.js", "Kotlin", "Jetpack Compose", "Next.js", "Ant Design"],
+      description: "Comprehensive B2B marketplace ecosystem connecting retailers and suppliers across Kenya. Built web portal, Android application, and company portfolio website with multi-role dashboards and complete e-commerce functionality.",
+      features: [
+        "Web portal for supplier-retailer connections",
+        "Android mobile app with inventory management",
+        "Multi-role dashboards (admin, manufacturer, distributor, retailer)",
+        "Secure authentication and payment integration",
+        "Real-time analytics and order management"
+      ]
     },
     {
       title: "AI-Powered Real-Time Chat Platform",
       technologies: ["Next.js", "FastAPI", "Kotlin", "Google Gemini", "WebSocket"],
       description: "Multi-platform AI assistant with web interface and Android app featuring voice interactions. Built with WebSocket real-time messaging, speech recognition, text-to-speech capabilities, and Google Gemini AI integration for intelligent responses.",
       github: "https://github.com/I-GIKARU/AI-Chatbot-Assistant"
-    },
-    {
-      title: "AI Task Management & Productivity Suite",
-      technologies: ["CrewAI", "Multi-Agent AI", "LLM Integration", "Google Gemini", "Microservices"],
-      description: "Multi-agent AI platform built with CrewAI featuring specialized autonomous agents for code review, resume building, finance analysis, and intelligent email assistance. Implements advanced agent orchestration and task delegation.",
-      agents: [
-        "Smart Code Review Agent (bug detection, documentation, testing)",
-        "Smart Resume Builder Agent (ATS optimization, tailored resumes)",
-        "Personal Finance Analyzer Agent (budget generation, investment advice)",
-        "Email Response Assistant Agent (professional responses, translation)"
-      ]
-    },
-    {
-      title: "AI-Powered WhatsApp Auto-Reply System",
-      technologies: ["Android", "Kotlin", "LangGraph", "FastAPI", "Jetpack Compose", "Google Gemini AI", "RAG Systems"],
-      description: "Production-ready AI assistant that automatically responds to WhatsApp messages using true background processing. Features RemoteInput integration for seamless replies without UI interaction, intelligent conversation queuing, and real estate business context with multi-county support.",
-      github: "https://github.com/I-GIKARU/whatsapp-ai-assistant",
-      features: [
-        "True Background WhatsApp Replies (RemoteInput integration)",
-        "AI-Powered Response Generation (3-second response time)",
-        "Real Estate Business Context (Multi-county pricing: Nairobi, Kiambu, Machakos)",
-        "Conversation Queuing & Deduplication System",
-        "Modern WhatsApp-themed UI with Jetpack Compose",
-        "Intelligent Confidence Filtering (50-95% threshold)",
-        "Accessibility Service Integration for Message Detection",
-        "Professional Status Dashboard with Real-time Metrics"
-      ]
-    },
+    }
+  ],
+  
+  certifications: [
+    "Full Stack Software Developer – Moringa School, 2025"
   ],
   
   achievements: [
-    "Built 6+ production-ready AI applications with autonomous capabilities",
-    "Developed enterprise-grade AI cybersecurity platform with 95% threat detection accuracy",
-    "Created multi-agent AI systems using LangGraph and CrewAI for business automation",
-    "Implemented RAG systems with vector databases (Pinecone, Weaviate, Chroma)",
-    "Deployed scalable AI infrastructure on Kubernetes with MLOps monitoring",
-    "Integrated multiple LLM providers (Claude, OpenAI, Gemini) in production systems",
-    "Built autonomous security monitoring system with 2.5s incident response time",
-    "Developed AI-powered data analysis platform with machine learning capabilities",
-    "Created intelligent task management suite with specialized AI agents"
-  ],
-  
-  specializations: [
-    "Agentic AI system development and multi-agent orchestration",
-    "RAG (Retrieval-Augmented Generation) systems with vector databases",
-    "Enterprise AI infrastructure and MLOps deployment",
-    "LLM integration and optimization across multiple providers",
-    "Autonomous AI monitoring and intelligent automation",
-    "AI-powered cybersecurity and threat detection systems",
-    "Machine learning model development and deployment"
+    "Built comprehensive B2B marketplace platform serving Kenya's supply chain ecosystem",
+    "Developed autonomous WhatsApp AI assistant reducing manual customer service by 80%",
+    "Created multi-platform applications with seamless user experiences across web and mobile",
+    "Implemented secure authentication and payment systems for e-commerce platforms",
+    "Designed intelligent automation systems for business process optimization"
   ],
   
   availability: {
     status: "Available for opportunities",
-    interests: ["AI/ML Engineering", "Agentic AI Systems", "MLOps & AI Infrastructure", "AI Research & Development"],
+    interests: ["Full Stack Development", "Mobile App Development", "AI-Powered Applications", "Business Automation"],
     preferredContact: "email"
   }
 };

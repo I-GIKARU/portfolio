@@ -193,10 +193,10 @@ export default function Home() {
                   className="mb-4 sm:mb-6"
                 >
                   <div className="text-xl sm:text-2xl text-white/90 mb-2">
-                    AI Engineer & Agentic AI Specialist
+                    Full Stack & Mobile Developer
                   </div>
                   <div className="text-lg sm:text-xl text-blue-300">
-                    LangGraph • CrewAI • RAG Systems • MLOps
+                    React • Android • AI-Powered Applications
                   </div>
                 </motion.div>
                 
@@ -206,9 +206,9 @@ export default function Home() {
                   transition={{ duration: 0.6, delay: 1.0 }}
                   className="text-base sm:text-lg text-white/70 mb-6 sm:mb-8 leading-relaxed"
                 >
-                  I build production-ready AI systems and autonomous agents that solve complex real-world problems. 
-                  Specializing in multi-agent architectures, RAG systems, and enterprise AI infrastructure with 
-                  LangGraph, CrewAI, and modern LLM frameworks - delivering intelligent automation solutions.
+                  I build web platforms, mobile applications, and AI-powered business solutions. 
+                  Currently working on B2B marketplace systems and intelligent automation tools 
+                  that help businesses streamline their operations and improve customer engagement.
                 </motion.p>
 
                 {/* Stats */}
@@ -280,8 +280,8 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-12 sm:mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">AI & Technical Expertise</h2>
-            <p className="text-white/60 text-base sm:text-lg">Advanced AI technologies and frameworks I use to build intelligent systems</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Technical Skills</h2>
+            <p className="text-white/60 text-base sm:text-lg">Technologies and frameworks I use to build modern applications</p>
           </motion.div>
           
           <motion.div 
@@ -293,45 +293,39 @@ export default function Home() {
           >
             {[
               {
-                icon: <Brain className="w-8 h-8" />,
-                title: "AI & Agentic Systems",
-                skills: ["LangGraph", "CrewAI", "AutoGPT", "LangChain", "Multi-Agent AI", "Autonomous Systems"],
-                color: "from-purple-600 to-pink-600"
-              },
-              {
-                icon: <Zap className="w-8 h-8" />,
-                title: "LLM & AI Providers",
-                skills: ["Claude", "Anthropic API", "OpenAI", "Gemini", "GPT-4", "Hugging Face"],
+                icon: <Code className="w-8 h-8" />,
+                title: "Frontend Development",
+                skills: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Ant Design"],
                 color: "from-blue-600 to-cyan-600"
               },
               {
-                icon: <Database className="w-8 h-8" />,
-                title: "RAG & Memory Systems",
-                skills: ["Pinecone", "Weaviate", "Chroma", "PostgreSQL", "Redis", "Vector Databases"],
+                icon: <Smartphone className="w-8 h-8" />,
+                title: "Mobile Development",
+                skills: ["Android", "Kotlin", "Jetpack Compose", "Flutter", "Firebase"],
                 color: "from-green-600 to-emerald-600"
               },
               {
-                icon: <Cloud className="w-8 h-8" />,
-                title: "MLOps & Deployment",
-                skills: ["Kubernetes", "AWS", "GCP", "Azure", "LangSmith", "Weights & Biases"],
+                icon: <Database className="w-8 h-8" />,
+                title: "Backend & Databases",
+                skills: ["Node.js", "FastAPI", "PostgreSQL", "MySQL", "Redis"],
+                color: "from-purple-600 to-pink-600"
+              },
+              {
+                icon: <Brain className="w-8 h-8" />,
+                title: "AI & Automation",
+                skills: ["LangGraph", "CrewAI", "OpenAI", "Gemini", "Business Automation"],
                 color: "from-orange-600 to-red-600"
               },
               {
-                icon: <Palette className="w-8 h-8" />,
-                title: "Orchestration & Streaming",
-                skills: ["Apache Airflow", "RabbitMQ", "Kafka", "Event-Driven Architecture"],
+                icon: <Cloud className="w-8 h-8" />,
+                title: "Cloud & DevOps",
+                skills: ["AWS", "GCP", "Azure", "Docker", "Git"],
                 color: "from-slate-600 to-gray-600"
               },
               {
-                icon: <Code className="w-8 h-8" />,
-                title: "Programming Languages",
-                skills: ["Python", "Rust", "Go", "TypeScript", "JavaScript", "Kotlin"],
-                color: "from-gray-700 to-slate-700"
-              },
-              {
                 icon: <Globe className="w-8 h-8" />,
-                title: "Supporting Technologies",
-                skills: ["FastAPI", "React", "Next.js", "Streamlit", "Docker", "Git"],
+                title: "Programming Languages",
+                skills: ["Python", "TypeScript", "JavaScript", "Kotlin", "Go"],
                 color: "from-cyan-600 to-blue-600"
               }
             ].map((category, index) => (
@@ -399,11 +393,11 @@ export default function Home() {
                 link: "/projects/cybersecurity-agent"
               },
               {
-                title: "Soko Kuu - E-Commerce Platform",
-                description: "Multi-category marketplace with products, services, houses & rides. Features Google auth, payments, and Firebase integration.",
-                image: "/e-commerce/photo_2025-09-18_11-00-28.jpg",
-                tags: ["Flutter", "Firebase", "Google Auth"],
-                link: "/projects/soko-kuu"
+                title: "ShopEasy B2B Marketplace",
+                description: "Comprehensive B2B marketplace connecting retailers and suppliers across Kenya. Built web portal, Android app, and company website.",
+                image: "/shopeasy/photo_2026-01-17_10-56-49.jpg",
+                tags: ["React.js", "Kotlin", "Next.js"],
+                link: "/projects/shopeasy"
               },
               {
                 title: "AI-Powered Real-Time Chat",
